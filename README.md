@@ -18,3 +18,8 @@ The description in the brackets is my build
 3. Establish an ssh connection to the headless Raspberry Pi from your computer (or navigate to the terminal on the Raspberry Pi if you are running it with peripherals). For ssh users, the connection can be opened with the command `ssh pi@XXX.XXX.XX.XX` where `XXX.XXX.XX.XX` is the IP address of your Pi. When prompted, enter the default password, which is `raspberry`. 
 
 4. Once you are logged in, make your new machine a little more secure by changing the default password, using the command `passwd` and following the prompts. Then, update all of the software on the machine so that everything is up to date using `sudo apt-get update` followed by `sudo apt-get upgrade`, `sudo apt-get autoremove`, and finally `sudo reboot` to restart the machine, and following the prompts along the way. These steps may take some time for fresh installs, especially over WiFi.  
+
+### Other Helpful Resources
+* [The Markdown Cheatsheet](https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md)
+* [Linuxize](https://linuxize.com/post/how-to-enable-ssh-on-raspberry-pi/)
+* [ShellHacks Command Line Tips and Tricks](https://www.shellhacks.com/raspberry-pi-default-password-how-to-change/)
