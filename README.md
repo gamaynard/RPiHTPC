@@ -23,3 +23,6 @@ The description in the brackets is my build
 * [The Markdown Cheatsheet](https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md)
 * [Linuxize](https://linuxize.com/post/how-to-enable-ssh-on-raspberry-pi/)
 * [ShellHacks Command Line Tips and Tricks](https://www.shellhacks.com/raspberry-pi-default-password-how-to-change/)
+* [Circuit Digest - Kodi Installation](https://circuitdigest.com/microcontroller-projects/install-kodi-on-raspberry-pi)
+* [Circuit Digest - Netflix](https://circuitdigest.com/microcontroller-projects/how-to-watch-netflix-on-raspberry-pi)
+* [PianoBar](https://www.instructables.com/Wireless-Raspberry-Pi-Radio-Pianobar/)
