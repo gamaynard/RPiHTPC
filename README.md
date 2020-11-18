@@ -5,8 +5,14 @@ I've done this several times now, and eventually the wheels fall off, necessitat
 ### Requirements
 The description in the brackets is my build
 * A Raspberry Pi computer [Raspberry Pi 2 Model B]
-* An SD card with at least an 8 GB capacity []
-* A functioning computer with an SD card reader [Lenovo ThinkPad T500 running Lubuntu 20.04]
+* A micro SD card with at least an 8 GB capacity [SanDisk 8 GB MicroSD with PiHut SD adapter]
+* A functioning computer with an SD or micro SD card reader [Lenovo ThinkPad T500 running Lubuntu 20.04]
 
 ### Step by Step Installation
-1. Install Raspberry Pi OS (formerly Raspbian) to your SD card using the image writer of your choice. For simplicity's sake, I used the official Raspberry Pi Imager (v 1.4) to install the [Raspberry Pi OS with Desktop image](https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2020-08-24/2020-08-20-raspios-buster-armhf.zip). 
+1. Install Raspberry Pi OS (formerly Raspbian) to your SD card using the image writer of your choice. For simplicity's sake, I used the official Raspberry Pi Imager (v 1.4) to install the [Raspberry Pi OS with Desktop image](https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2020-08-24/2020-08-20-raspios-buster-armhf.zip).
+
+2. Mount the SD card on your computer and navigate to the code(boot) directory of the SD card. Once you're there, create a new, blank file with no extensions called code(ssh). By creating this file before inserting the SD card into the Raspberry Pi, we enable SSH connections to the new machine, enabling it to run in headless mode. 
+
+2. Insert the SD card into the Raspberry Pi, boot it up, and connect the device to the internet. 
+
+3.
