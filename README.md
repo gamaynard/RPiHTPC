@@ -15,4 +15,4 @@ The description in the brackets is my build
 
 2. Insert the SD card into the Raspberry Pi, boot it up, and connect the device to the internet. 
 
-3.
+3. Establish an ssh connection to the headless Raspberry Pi from your computer (or navigate to the terminal on the Raspberry Pi if you are running it with peripherals). For ssh users, the connection can be opened with the command `ssh pi@XXX.XXX.XX.XX` where `XXX.XXX.XX.XX` is the IP address of your Pi. When prompted, enter the default password, which is `raspberry`. 
